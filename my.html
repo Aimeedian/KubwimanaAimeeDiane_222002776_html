@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="black" style="color: white;">
+<center><p><h1 style="color: deeppink;text-align: center;font-family: Elephant;font-weight: bold;">EMPLOYEE ATTENDANCE MANAGEMENT SYSTEM</h1></p>
+<ul style="margin-top: 55px;list-style-type: none;padding: 0px; align-items: center;">
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./home.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">HOME</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./about.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">ABOUT US</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./contact.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">CONTACT</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./service.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">SERVICE</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./form.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">FORM</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./table.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">TABLE</a></li>
+<li style="text-align: center;font-size: 32;font-family: times new roman;display: inline;align-items: center;"><a href="./my.html" style="padding: 10px;color: white;background-color: none;text-decoration: none;">MY BOOK</a>
+
+</ul></center>
+<br><br><br><br>
+	<h1>DATABASE AND JAVA WITH EMPLOYEE ATTENDANCE MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>employee_attendance_management_system.</b></p>
+		<ul type="cycle"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b><u>ADMINISTRATOR  Table</u></b></li>
+
+			<p>Administrator table database structure This is table is table that will be only created by admin and will hold other system users apart from admin  will give them username and password that they will use to login and access the project or system, and also t used to register if she/he’s don’t have an account so once you must to create account in order to login and access or use the system.
+            </p></br>
+
+			<li><b><u>LOGIN Table</u></b></li>
+
+			<p>
+This the first page of the system where system will choose destination depending on the function he/she possess in the system.
+</p> </br>
+
+
+			<li><b><u>REGISTRATION Table</u></b></li>
+
+			<p>As when adimn and user not have account are first to create an account in the registration form.
+			include id,name ,address,etc</p></br>
+
+            <li><b><u>EMPLOYEE Table</u></b></li>
+
+			<p>It is forms are helps adimn to get information about to book are in library and out of library including book id, book name,book isbn , book title,book pubyear.</p></br>
+
+			<li><b><u>ATTENDANCE Table</u></b></li>
+
+			<p>It is a table that help to keep information of employee and also it is used to help user and admin to make report of jobs and easy in tracking information </p></br>
+
+<li><b><u>HOLIDAY Table</u></b></li>
+
+			<p>This tables help to recording information of employees who ask permission for the holiday with special cases or purposes.    
+ </p></br>
+
+<li><b><u>NOTIFICATION Table</u></b></li>
+
+			<p>it is used to keep record of employee who gets messages of nitify of what action are going up in the system like if he/she ask permission .the admin can send message if accept  or decline request of employee and send message to them to informing . 
+</p></br>
+			  
+
+			   <h3><u><i><li>Attributes</li></i></u></h3>
+			       <b>Attributes of Admin Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+    
+    <p><i>username:</i> The column which are represents username of given user.</br></p>
+
+    <p><i>Password:</i> The column which are represents  password of the user.</br></p>
+
+<b>Attributes of login Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in login table:</br>
+
+    
+    <p><i>username:</i></b> The column which are represents username of given user.</br></p>
+
+    <p><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+<b>Attributes of registration Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in registration  table:</br>
+
+ <p><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br> 
+
+    <p><i>phone:</i></b> The column which are represents telephone number of user.</br>
+
+    <p><i>gender:</i></b> The column which are represents or store gender of user like female and male.</br> 
+
+    <p><i>address</i></b> The column which are represents address of user </br>
+
+    <p><i>DoB:</i></b> The column which are represents Date of Birth of user.</br>
+
+    <p><i>username</i></b> The column which are represents Email of given user.</br>
+
+    <p><i>Password:</i></b> The column which are represents  password of the user.</br>
+
+
+   <p><b>Attributes of employee table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in employee  table:</br>
+
+     <p><i>Employee code:The columns which are represents unique identifier for each employee in table</i></p>
+     <p><i> First Name: The columns which are represents firstname for employee</i></p>
+     <p><i>Last Name:The columns which are represents last name for each employee in table</i></p>
+     <p><i>phone: The columns which are representstelephone number for each employee in table</i></p>
+      <p><i>email: The columns which are represents email for each employee in table</i></p>
+    <p><i>address: The columns which are represents address for each employee in table</i></p>
+     <p><i>Status: The columns which are representsstatus for each employee in table</i></p>
+
+
+ <b>Attributes of attendance Table</b></br>
+    <p><i>id:The columns which are represents unique identifier for each employee in table</i></p>
+     <p><i> employee code: The columns which are represents foreign key  from employee table</i></p>
+     <p><i>date:The columns which are represents date for each employee in table</i></p>
+     <p><i>clock in: The columns which are represents clock in for each employee in table</i></p>
+      <p><i>clock out: The columns which are represents clock out for each employee in table</i></p>
+    <p><i>worked houred: The columns which are represents worked hour for each employee in table</i></p><br>
+
+   <b>Attributes of holiday Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in holiday table:</br>
+    <p><i>id:The columns which are represents unique identifier for each employee in table</i></p>
+     <p><i> employee name: The columns which are represents foreign key  from employee table</i></p>
+     <p><i>holiday type:The columns which are represents holidaytype for each employee in table</i></p>
+     <p><i>start date in: The columns which are represents start date for each employee in table</i></p>
+       <p><i>end date in: The columns which are represents end date for each employee in table</i></p>
+    <p><i>document: The columns which are represents document for each employee in table</i></p><br>
+
+   
+ <b>Attributes of notification Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in notification  table:</br>
+ <p><i>notification id:The columns which are represents unique identifier for each notification in table</i></p>
+     <p><i> employee name: The columns which are represents foreign key  from notification table</i></p>
+     <p><i>type:The columns which are represents type for each notification in table</i></p>
+     <p><i>content: The columns which are represents content for each notification in table</i></p>
+       <p><i>status: The columns which are represents status for each notification in table</i></p> </UL>
+
+   <h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it copy with full analyzed system.
+</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<p><b>Eclipse IDE: an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular.  </p><br>
+
+<p><b>JAR stands for Java Archive. It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br>
+
+			            <center>  <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b>LOGIN Form</b></br>
+<img src="loginform.png" width=500 height=300><br><br><br><br><br>
+
+<b><i>ADMIN Form</i></b></br>
+<img src="lg.PNG" width=500 height=200><br><br><br><br><br>
+
+<b><i>REGISTRATION Form</i></b></br>
+<img src="acc.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>NOTIFICATION form</i></b></br>
+<img src="not.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>EMPLOYEE Form</i></b></br>
+<img src="employee.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>ATTENDANVCE RECORD Form</i></b></br>
+<img src="attend.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>HOLIDAY Form</i></b></br>
+<img src="hol2.png" width=500 height=200><br><br><br><br><br>
+ </ul>
+		
+	</ol></center>
+
+<p style="margin-top: 150px; color: white;text-align: center; font-size: 45px"><marquee>Designed by Aimediane_222002776 &copycopyright 2024</marquee></p>
+</body>
+</html>
